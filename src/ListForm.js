@@ -31,7 +31,7 @@ export default function ListForm({ onListFormSubmit }) {
         value={listText}
         onChange={(event) => setListText(event.target.value)} />
       <button
-        className="rounded-md py-3 px-10 text-white bg-black"
+        className="rounded-md py-3 px-10 text-white transition-all duration-300 hover:bg-gray-600 bg-black"
         type="submit">
         Submit
       </button>

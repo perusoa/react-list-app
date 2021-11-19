@@ -65,7 +65,7 @@ export default function App() {
   const totalListItems = lists.list1.length + lists.list2.length;
 
   return (
-    <div className="container mx-auto my-8 px-6">
+    <div className="container mx-auto py-8 px-6">
       <ListHeader
         title="List App"
         subTitle="Total Items"
